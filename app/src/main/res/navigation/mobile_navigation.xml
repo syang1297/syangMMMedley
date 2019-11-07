@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="edu.ucsb.cs.cs184.syang01.syangmmmedley.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_fireworks"
+        android:name="edu.ucsb.cs.cs184.syang01.syangmmmedley.ui.fireworks.FireworksFragment"
+        android:label="Fireworks"
+        tools:layout="@layout/fragment_fireworks" />
+
+    <fragment
+        android:id="@+id/nav_text_to_speech"
+        android:name="edu.ucsb.cs.cs184.syang01.syangmmmedley.ui.texttospeech.TextToSpeechFragment"
+        android:label="Text to Speech"
+        tools:layout="@layout/fragment_texttospeech" />
+
+    <fragment
+        android:id="@+id/nav_speech_to_text"
+        android:name="edu.ucsb.cs.cs184.syang01.syangmmmedley.ui.speechtotext.SpeechToTextFragment"
+        android:label="Speech to Text"
+        tools:layout="@layout/fragment_speechtotext" />
+
+    <fragment
+        android:id="@+id/nav_movie"
+        android:name="edu.ucsb.cs.cs184.syang01.syangmmmedley.ui.movie.MovieFragment"
+        android:label="Movie"
+        tools:layout="@layout/fragment_movie" />
+
+    <fragment
+        android:id="@+id/nav_multitouch_drawing"
+        android:name="edu.ucsb.cs.cs184.syang01.syangmmmedley.ui.multitouch.MultitouchFragment"
+        android:label="Multitouch Drawing"
+        tools:layout="@layout/fragment_multitouch" />
+</navigation>
